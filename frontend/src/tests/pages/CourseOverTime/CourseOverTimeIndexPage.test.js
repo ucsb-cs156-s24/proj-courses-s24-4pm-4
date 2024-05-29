@@ -93,6 +93,6 @@ describe("CourseOverTimeIndexPage tests", () => {
       courseNumber: "130A",
     });
 
-    expect(screen.getByText("ECE 1A")).toBeInTheDocument();
+    expect(screen.getByText("ECE 5")).toBeInTheDocument();
   });
 });
